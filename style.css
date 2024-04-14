@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Lobster', cursive;
+font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+.calculator{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: gray;
+
+}
+
+.btns button:hover{
+    background-color: rgb(186, 129, 240);
+    font-weight: bold;
+}
+input{
+    width: 300px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    background-color: #7e7c7c;
+
+}
+input::placeholder{
+    color: black;
+}
+button{
+    border: none;
+    width: 62px;
+    height: 62px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    background: transparent;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgb(180 176 195);
+    cursor: pointer;
+
+}
+.eqlbtn{
+    background-color: rgb(240, 173, 73);
+}
+.operator{
+    background-color: rgb(223, 208, 177);
+    color: rgb(89, 39, 65);
+}
